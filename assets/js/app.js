@@ -4,7 +4,7 @@ function hideGif(){
     return loader.fadeOut("slow");
 }
 
-setInterval(hideGif, 1500);
+setInterval(hideGif, 1000);
 
 function makeHtmlVisible(){
     let html = $(".container-fluid")[0].style.display = "block";
@@ -13,7 +13,7 @@ function makeHtmlVisible(){
 
 $(function(){
 
-    setInterval(makeHtmlVisible, 2500);
+    setInterval(makeHtmlVisible, 1500);
 
     // scroll fade
     $(window).scroll(function(){

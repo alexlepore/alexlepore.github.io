@@ -1,6 +1,11 @@
 html{
 	display: block;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+	background-color: black;
+	color:white;
 }
 
 button{
@@ -24,6 +29,7 @@ img#sticky {
 	width: 100%;
 	z-index: 9999999;
 	background: url("/assets/images/gif-load.gif") no-repeat center center;
+	background-color: white;
 }
 
 #text-section{
@@ -54,21 +60,27 @@ img#sticky {
 	margin: auto;
 	padding-top:20px;
 	background-color: #dadada;
+	color:black;
 	height: 100vh;
+	font-weight: 700;
 }
 
 .tech-wrapper{
 	margin: auto;
-	margin-right:10px;
 	padding-top:20px;
+	background-color: white;
+	color: black;
+	font-weight: 700;
 }
 
 .contact-wrapper{
 	margin: auto;
 	padding-top:20px;
-	background-color: #dadada;
+	background-color: rgb(71, 151, 255);
+	color: black;
 	margin-bottom: 20px;
 	height: 95vh;
+	font-weight: 700;
 }
 
 
