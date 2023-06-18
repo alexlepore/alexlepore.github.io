@@ -1,0 +1,75 @@
+/* Globals */
+
+.blue{
+    color: cornflowerblue;
+}
+
+.badgePill{
+    border-color: cornflowerblue;
+    background-color: black;
+    color: cornflowerblue;
+    border: 1px solid;
+}
+
+.grey{
+    color: grey;
+}
+
+.lightMode{
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.stickyLink{
+    position: fixed;
+}
+
+/* Specifics */
+
+#stickyImage{
+    width: 15%;
+	height: 100%;
+	float: left;
+	position: fixed;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+#lightDarkButton{
+    cursor: pointer;
+}
+
+@media (max-width: 575.98px) { 
+    #nameOccupation > h1{
+        font-weight: 300;
+        line-height: 1.2;
+        font-size: 3rem;
+    } 
+}
+
+
+@media (max-width: 575.98px) { 
+    #aboutSection > h1{
+        font-size: 2.2rem;
+    } 
+}
+
+@media (max-width: 575.98px) { 
+    #aboutSection > h4{
+        font-size: 1.2rem;
+    } 
+}
+
+
+/* Page Specific */
+
+#page1{
+    background-color: black;
+}
+
+#page2{
+    background-color:black;
+}  
+
+#page3{
+    background-color: black;
+}  
