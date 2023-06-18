@@ -48,7 +48,7 @@
 
 @media (max-width: 575.98px) { 
     #aboutSection{
-        margin-top: 40px;
+        margin-top: 60px;
         margin-bottom: 20px;
     } 
     #aboutSection > h1{
@@ -61,7 +61,7 @@
 
 @media (max-width: 575.98px) { 
     #page2{
-        overflow: auto;
+        overflow:auto;
     }
 }
 
