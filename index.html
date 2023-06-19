@@ -13,12 +13,27 @@
 
   <body>
     <!--Page 1-->
+    <nav class="navbar navbar-dark sticky-top bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-end">
+                <a class="nav-link blue" aria-current="page" href="#page1">Home</a>
+                <a class="nav-link blue" href="#page2">About</a>
+            </div>
+        </div>
+    </nav>
+
     <div class="container-fluid vh-100" id="page1">
         <div class="row vh-100">
             <div class="d-none d-sm-block d-sm-none d-md-block col-md-2 col-lg-2">
                 <img id="stickyImage" src="assets/images/stickyimage2.jpg">
             </div>
-            <div class="col align-self-center" id="nameOccupation">
+            <div class="col-8 align-self-center" id="nameOccupation">
                 <h1 class="display-3 blue">Alex Lepore</h1>
                 <h1 class="text-white">Web Developer</h1>
                 <div class="row">
@@ -29,21 +44,13 @@
                         <a href="https://www.linkedin.com/in/alex-l-448321176/" target="_blank"><i class="bi bi-linkedin text-white fs-1" style="margin-left: 10px;"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="col mt-4">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb stickyLink">
-                        <li class="breadcrumb-item fs-5"><a href="#page1">Home</a></li>
-                        <li class="breadcrumb-item fs-5"><a href="#page2">About</a></li>
-                    </ol>
-                </nav>
-            </div>
+            </div> 
         </div>
     </div>
     <!--Page 2-->
     <div class="container-fluid vh-100" id="page2">
         <div class="row vh-100">
-            <div class="offset-md-2 offset-lg-2 col-xs-12 col-sm-12 col-md-9 col-lg-4 col-xl-5 align-self-center" id="aboutSection">
+            <div class="offset-md-2 offset-lg-2 col-xs-12 col-sm-12 col-md-8 col-lg-4 col-xl-5 align-self-center" id="aboutSection">
                 <h1 class="text-white">About</h1>
                 <h4 class="blue">I'm a web developer that specializes in <span class="text-white"> Javascript</span> 
                     applications. I have worked in the ecommerce, events management and financial industries. 
@@ -54,7 +61,7 @@
                     also play an integral role in my Front End Development.
                 </h4>
             </div>
-            <div class="col-xs-6 col-sm-8 col-md-10 col-lg-5 col-xl-4 align-self-center flex-column" id="workHistory">
+            <div class="col-xs-10 col-sm-8 col-md-8 col-lg-5 col-xl-4 align-self-center" id="workHistory">
                 <div class="row">
                     <div class="col text-end">
                         <h5 class="blue">2018-2020</h5>

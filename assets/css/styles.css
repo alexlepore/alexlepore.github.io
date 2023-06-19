@@ -24,6 +24,10 @@
     position: fixed;
 }
 
+.navbar-toggler-icon{
+    color: cornflowerblue!important;
+}
+
 /* Specifics */
 
 #stickyImage{
@@ -31,11 +35,26 @@
 	height: 100%;
 	float: left;
 	position: fixed;
-    padding: 1.5rem 0 1.5rem 0;
+    padding: 0 0 5rem 0;
 }
 
 #lightDarkButton{
     cursor: pointer;
+}
+
+@media (max-width: 375.98px) { 
+    #aboutSection{
+        margin-top: 60px;
+    } 
+    #aboutSection > h1{
+        font-size: 2.0rem;
+    } 
+    #aboutSection > h4{
+        font-size: 1.0rem;
+    } 
+    .yearsWorked{
+        text-align: left!important;
+    }
 }
 
 @media (max-width: 575.98px) { 
@@ -49,7 +68,6 @@
 @media (max-width: 575.98px) { 
     #aboutSection{
         margin-top: 60px;
-        margin-bottom: 20px;
     } 
     #aboutSection > h1{
         font-size: 2.2rem;
@@ -59,11 +77,21 @@
     } 
 }
 
-@media (max-width: 575.98px) { 
-    #page2{
-        overflow:auto;
-    }
+@media (max-width: 768px) { 
+    #aboutSection{
+        margin-top: 40px;
+    } 
 }
+
+@media (max-width: 992px) { 
+    #aboutSection > h1{
+        font-size: 2.2rem;
+    } 
+    #aboutSection > h4{
+        font-size: 1.2rem;
+    } 
+}
+
 
 /* Page Specific */
 
