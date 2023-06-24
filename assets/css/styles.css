@@ -1,7 +1,14 @@
 /* Globals */
+.black{
+    background-color: black;
+}
 
 .blue{
     color: cornflowerblue;
+}
+
+.grey{
+    color: grey;
 }
 
 .badgePill{
@@ -9,100 +16,29 @@
     background-color: black;
     color: cornflowerblue;
     border: 1px solid;
+    font-size: medium;
 }
 
-.grey{
-    color: grey;
+.breadCrumbs{
+    font-size:x-large;
 }
 
-.lightMode{
-    background-color: #f5f5f5;
-    color: black;
-}
 
-.stickyLink{
+/* Specifics */
+#stickyColumn{
     position: fixed;
 }
 
-.navbar-toggler-icon{
-    color: cornflowerblue!important;
-}
+/* Mobile */
 
-/* Specifics */
-
-#stickyImage{
-    width: 15%;
-	height: 100%;
-	float: left;
-	position: fixed;
-    padding: 0 0 5rem 0;
-}
-
-#lightDarkButton{
-    cursor: pointer;
-}
-
-@media (max-width: 375.98px) { 
-    #aboutSection{
-        margin-top: 60px;
-    } 
-    #aboutSection > h1{
-        font-size: 2.0rem;
-    } 
-    #aboutSection > h4{
-        font-size: 1.0rem;
-    } 
-    .yearsWorked{
-        text-align: left!important;
+@media (max-width: 575.98px) { 
+    .breadCrumbs{
+        font-size:large;
+    }
+    #stickyColumn{
+        position:relative;
+    }
+    #yearsWorked > h5{
+        text-align: left;
     }
 }
-
-@media (max-width: 575.98px) { 
-    #nameOccupation > h1{
-        font-weight: 300;
-        line-height: 1.2;
-        font-size: 3rem;
-    } 
-}
-
-@media (max-width: 575.98px) { 
-    #aboutSection{
-        margin-top: 60px;
-    } 
-    #aboutSection > h1{
-        font-size: 2.2rem;
-    } 
-    #aboutSection > h4{
-        font-size: 1.2rem;
-    } 
-}
-
-@media (max-width: 768px) { 
-    #aboutSection{
-        margin-top: 40px;
-    } 
-}
-
-@media (max-width: 992px) { 
-    #aboutSection > h1{
-        font-size: 2.2rem;
-    } 
-    #aboutSection > h4{
-        font-size: 1.2rem;
-    } 
-}
-
-
-/* Page Specific */
-
-#page1{
-    background-color: black;
-}
-
-#page2{
-    background-color:black;
-}  
-
-#page3{
-    background-color: black;
-}  
