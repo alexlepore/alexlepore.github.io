@@ -10,113 +10,94 @@
     <!--bootstrap icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
-
   <body>
-    <!--Page 1-->
-    <nav class="navbar navbar-dark sticky-top bg-black">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
-            aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav text-end">
-                <a class="nav-link blue" aria-current="page" href="#page1">Home</a>
-                <a class="nav-link blue" href="#page2">About</a>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container-fluid vh-100" id="page1">
-        <div class="row vh-100">
-            <div class="d-none d-sm-block d-sm-none d-md-block col-md-2 col-lg-2">
-                <img id="stickyImage" src="assets/images/stickyimage2.jpg">
-            </div>
-            <div class="col-8 align-self-center" id="nameOccupation">
+    <div class="container-fluid vh-100 black" id="page1">
+        <div class="row align-items-center" style="height: 100%!important;">
+            <div class="col-xs-12 col-sm-4 text-center" id="stickyColumn">
                 <h1 class="display-3 blue">Alex Lepore</h1>
                 <h1 class="text-white">Web Developer</h1>
                 <div class="row">
-                    <div class="col-1 text-center">
+                    <span class="breadCrumbs"><a href="#page2">About</a></span>
+                </div>
+                <div class="row">
+                    <span class="breadCrumbs"><a href="#page3">Experience</a></span>
+                </div>
+                <div class="row">
+                    <div class="col text-end">
                         <a href="https://github.com/alexlepore" target="_blank"><i class="bi bi-github text-white fs-1"></i></a>
                     </div>
-                    <div class="col-1 text-center">
+                    <div class="col text-start">
                         <a href="https://www.linkedin.com/in/alex-l-448321176/" target="_blank"><i class="bi bi-linkedin text-white fs-1" style="margin-left: 10px;"></i></a>
                     </div>
                 </div>
-            </div> 
+            </div>
+            <div class="col-sm-8" style="position: relative;">
+            </div>
         </div>
     </div>
-    <!--Page 2-->
-    <div class="container-fluid vh-100" id="page2">
-        <div class="row vh-100">
-            <div class="offset-md-2 offset-lg-2 col-xs-12 col-sm-12 col-md-8 col-lg-4 col-xl-5 align-self-center" id="aboutSection">
-                <h1 class="text-white">About</h1>
-                <h4 class="blue">I'm a web developer that specializes in <span class="text-white"> Javascript</span> 
-                    applications. I have worked in the ecommerce, events management and financial industries. 
-                    I aim to write high-quality code that follows <span class="text-white">industry standards</span> and 
-                    <span class="text-white">design patterns</span>. I am passionate about growing my skills 
-                    as a developer and incorportating modern technologies and frameworks
-                    in my development. <span class="text-white">UI</span> and <span class="text-white">UX</span> 
-                    also play an integral role in my Front End Development.
-                </h4>
+    <div class="container-fluid vh-100 black" id="page2">
+      <div class="row align-items-center" style="height: 100%!important;">
+        <div class="d-none d-sm-block col-sm-4">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <h1 class="text-white">About</h1>
+          <h4 class="blue">I'm a web developer that specializes in <span class="text-white"> Javascript</span> 
+              applications. I have worked in the ecommerce, events management and financial industries. 
+              I aim to write high-quality code that follows <span class="text-white">industry standards</span> and 
+              <span class="text-white">design patterns</span>. I am passionate about growing my skills 
+              as a developer and incorportating modern technologies and frameworks
+              in my development. <span class="text-white">UI</span> and <span class="text-white">UX</span> 
+              also play an integral role in how I write code.
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid vh-100 black" id="page3">
+      <div class="row align-items-center" style="height: 100%!important;">
+        <div class="d-none d-sm-block col-sm-4">
+        </div>
+        <div class="col-xs-12 col-sm-8">
+          <div class="row">
+            <div class="col-xs-12 col-sm-3 text-end" id="yearsWorked">
+                <h5 class="blue">2018-2020</h5>
             </div>
-            <div class="col-xs-10 col-sm-8 col-md-8 col-lg-5 col-xl-4 align-self-center" id="workHistory">
-                <div class="row">
-                    <div class="col text-end">
-                        <h5 class="blue">2018-2020</h5>
-                    </div>
-                    <div class="col">
-                        <h6 class="text-white">Web Developer</h6>
-                        <h6 class="text-white">World Congress</h6>
-                        <p class="grey">Managed a rotating schedule of conference websites using a propietary CMS.</p>
-                        <ul class="text-start">
-                            <li class="badge rounded-pill badgePill">
-                                HTML
-                            </li>
-                            <li class="badge rounded-pill badgePill">
-                                CSS
-                            </li>
-                            <li class="badge rounded-pill badgePill">
-                                JS
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col text-end">
-                        <h5 class="blue">2017-2018</h5>
-                    </div>
-                    <div class="col">
-                        <h6 class="text-white">Software Engineer Intern</h6>
-                        <h6 class="text-white">Trellis</h6>
-                        <p class="grey">Developed, maintained, and shipped production code for client websites. 
-                            Clients included Pax Labs, Jack-Nadel(Marriott), Affordable-Vet, Thermacell, and more.</p>
-                            <ul class="text-start">
-                                <li class="badge rounded-pill badgePill">
-                                    Magento 2
-                                </li>
-                                <li class="badge rounded-pill badgePill">
-                                    Shopify
-                                </li>
-                            </ul>
-                    </div>
-                </div>
+            <div class="col-xs-2 col-sm-9 col-md-4">
+                <h6 class="text-white">Web Developer</h6>
+                <h6 class="blue">World Congress</h6>
+                <p class="grey">Managed a rotating schedule of conference websites using a propietary CMS.</p>
+                <li class="badge rounded-pill badgePill">
+                    HTML
+                </li>
+                <li class="badge rounded-pill badgePill">
+                    CSS
+                </li>
+                <li class="badge rounded-pill badgePill">
+                    JS
+                </li>
             </div>
         </div>
+        <div class="row mt-3">
+            <div class="col-xs-12 col-sm-3 text-end" id="yearsWorked">
+                <h5 class="blue">2017-2018</h5>
+            </div>
+            <div class="col-xs-2 col-sm-9 col-md-4">
+                <h6 class="text-white">Software Engineer Intern</h6>
+                <h6 class="blue">Trellis</h6>
+                <p class="grey">Developed, maintained, and shipped production code for client websites. 
+                    Clients included Pax Labs, Jack-Nadel(Marriott), Affordable-Vet, Thermacell, and more.</p>
+                <li class="badge rounded-pill badgePill">
+                    Magento 2
+                </li>
+                <li class="badge rounded-pill badgePill">
+                    Shopify
+                </li>
+            </div>
+        </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script>
-
-    document.addEventListener("DOMContentLoaded", function() {
-        
-    });
-
-    function toggleSetting(){
-        document.body.classList.toggle("lightMode")
-    }
-    </script>
 </body>
 
 </html>
