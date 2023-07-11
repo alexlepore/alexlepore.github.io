@@ -32,6 +32,18 @@ a:hover{
     color: purple;
 }
 
+.scroll{
+    overflow: hidden;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.sectionScroll{
+    overflow: hidden;
+    overflow-y: auto;
+    height: 500px;
+}
+
 /* Specifics */
 #stickyColumn{
     position: fixed;
@@ -48,6 +60,7 @@ a:hover{
 #portrait:hover{
     filter: blur(4px);
 }
+
 
 /* Mobile */
 
