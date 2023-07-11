@@ -23,6 +23,14 @@
     font-size:x-large;
 }
 
+.projectLink{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+}
 
 /* Specifics */
 #stickyColumn{
